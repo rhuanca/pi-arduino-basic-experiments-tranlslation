@@ -1,6 +1,0 @@
-eclipse.preferences.version=1
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.923960842/PATH/delimiter=\:
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.923960842/PATH/operation=replace
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.923960842/PATH/value=/home/rhuanca/dev/rpi/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin\:/home/rhuanca/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.923960842/append=true
-environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.923960842/appendContributed=true
