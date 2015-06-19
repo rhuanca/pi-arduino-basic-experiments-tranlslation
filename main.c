@@ -12,14 +12,11 @@ int main() {
 
     // Define pin 7 as output
     INP_GPIO(4);
-    OUT_GPIO(4);
-
+    int count = 0;
     while (1) {
-        // Toggle pin 7 (blink a led!)
-        GPIO_SET = 1 << 4;
-        sleep(1);
-
-        GPIO_CLR = 1 << 4;
+        printf("about to read gpio 4..\n");
+        int in = GPIO_READ(4);
+        printf("%i - in : %i\n", count++,in);
         sleep(1);
     }
     return 0;

@@ -8,4 +8,4 @@ set(CMAKE_C_COMPILER ${ARM_TOOL_CHAIN}/bin/arm-linux-gnueabihf-gcc)
 
 set(SOURCE_FILES main.c)
 
-add_executable(led_on ${SOURCE_FILES} rpi.h rpi.h rpi.c)
+add_executable(read_gpio_4 ${SOURCE_FILES} rpi.h rpi.c main.c)
